@@ -1,1 +1,70 @@
-Hello its me
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+F:\Fahad>
+F:\Fahad>git init
+Initialized empty Git repository in F:/Fahad/.git/
+
+F:\Fahad>git remote add origin https://github.com/Fahadayyoub/C-comapany.git
+
+F:\Fahad>git add .
+
+F:\Fahad>git commit -m "message"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'MT159@DESKTOP-NS58TMC.(none)')
+
+F:\Fahad>git config --global user.email "muhammadfahadayyoub@gmail.com"
+
+F:\Fahad>git config --global user.name "Fahadayyoub"
+
+F:\Fahad>git commit -m "message"
+[master (root-commit) 63f7bf6] message
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New Text Document.txt
+
+F:\Fahad>git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Fahadayyoub/C-comapany.git
+ * [new branch]      master -> master
+
+F:\Fahad>git push origin master
+Everything up-to-date
+
+F:\Fahad>git commit -m "message"
+On branch master
+Changes not staged for commit:
+        deleted:    New Text Document.txt
+
+Untracked files:
+        Fahad.txt
+
+no changes added to commit
+
+F:\Fahad>git add .
+
+F:\Fahad>git commit -m "message"
+[master ca3999c] message
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 Fahad.txt
+ delete mode 100644 New Text Document.txt
+
+F:\Fahad>git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Fahadayyoub/C-comapany.git
+   63f7bf6..ca3999c  master -> master
+
+F:\Fahad>
