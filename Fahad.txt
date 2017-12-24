@@ -67,4 +67,565 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/Fahadayyoub/C-comapany.git
    63f7bf6..ca3999c  master -> master
 
+F:\Fahad>git add .
+
+F:\Fahad>git commit -m "message"
+[master 091692b] message
+ 1 file changed, 70 insertions(+), 1 deletion(-)
+ rewrite Fahad.txt (100%)
+
+F:\Fahad>git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 980 bytes | 980.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Fahadayyoub/C-comapany.git
+   ca3999c..091692b  master -> master
+
+F:\Fahad>+git status
+'+git' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\Fahad>git status
+On branch master
+nothing to commit, working tree clean
+
+F:\Fahad>git checkout -b latest
+Switched to a new branch 'latest'
+
+F:\Fahad>git checkout master
+Switched to branch 'master'
+
+F:\Fahad>git branch
+  latest
+* master
+
+F:\Fahad>ngit show head
+'ngit' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\Fahad>git show head
+commit 091692b40e967c517f6e2231b7e78d8aac73d046 (HEAD -> master, origin/master, latest)
+commit 091692b40e967c517f6e2231b7e78d8aac73d046 (HEAD -> master, origin/master, latest)
+Author: Fahadayyoub <muhammadfahadayyoub@gmail.com>
+Author: Fahadayyoub <muhammadfahadayyoub@gmail.com>
+Date:   Sun Dec 24 15:28:59 2017 +0500
+
+    message
+
+diff --git a/Fahad.txt b/Fahad.txt
+index 1838dfc..0b0d090 100644
+--- a/Fahad.txt
++++ b/Fahad.txt
+@@ -1 +1,70 @@
+-Hello its me
+\ No newline at end of file
++Microsoft Windows [Version 10.0.14393]
++(c) 2016 Microsoft Corporation. All rights reserved.
++
++F:\Fahad>
++F:\Fahad>git init
++Initialized empty Git repository in F:/Fahad/.git/
++
++F:\Fahad>git remote add origin https://github.com/Fahadayyoub/C-comapany.git
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++
++*** Please tell me who you are.
++
++Run
++
++  git config --global user.email "you@example.com"
++  git config --global user.name "Your Name"
++
++to set your account's default identity.
++Omit --global to set the identity only in this repository.
++
++fatal: unable to auto-detect email address (got 'MT159@DESKTOP-NS58TMC.(none)')
++
++F:\Fahad>git config --global user.email "muhammadfahadayyoub@gmail.com"
++
++F:\Fahad>git config --global user.name "Fahadayyoub"
++
++F:\Fahad>git commit -m "message"
++[master (root-commit) 63f7bf6] message
++ 1 file changed, 1 insertion(+)
++ create mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++ * [new branch]      master -> master
++
++F:\Fahad>git push origin master
++F:\Fahad>git push origin master
++F:\Fahad>git push origin master
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+set mark: ...skipping...
++F:\Fahad>git push origin master
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+set mark: ...skipping...
++F:\Fahad>git push origin master
++F:\Fahad>git push origin master
++
++F:\Fahad>git push origin master
++Omit --global to set the identity only in this repository.
++
++fatal: unable to auto-detect email address (got 'MT159@DESKTOP-NS58TMC.(none)')
++
++F:\Fahad>git config --global user.email "muhammadfahadayyoub@gmail.com"
++
++F:\Fahad>git config --global user.name "Fahadayyoub"
++
++F:\Fahad>git commit -m "message"
++[master (root-commit) 63f7bf6] message
++ 1 file changed, 1 insertion(+)
++ create mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++ * [new branch]      master -> master
++
++F:\Fahad>git push origin master
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
+...skipping...
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+\ No newline at end of file
+...skipping...
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+\ No newline at end of file
+...skipping...
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+\ No newline at end of file
+...skipping...
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+\ No newline at end of file
+...skipping...
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+\ No newline at end of file
+...skipping...
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+\ No newline at end of file
+...skipping...
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+\ No newline at end of file
+...skipping...
++Everything up-to-date
++
++F:\Fahad>git commit -m "message"
++On branch master
++Changes not staged for commit:
++        deleted:    New Text Document.txt
++
++Untracked files:
++        Fahad.txt
++
++no changes added to commit
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++[master ca3999c] message
++ 2 files changed, 1 insertion(+), 1 deletion(-)
++ create mode 100644 Fahad.txt
++ delete mode 100644 New Text Document.txt
++
++F:\Fahad>git push origin master
++Counting objects: 3, done.
++Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
++Total 3 (delta 0), reused 0 (delta 0)
++To https://github.com/Fahadayyoub/C-comapany.git
++   63f7bf6..ca3999c  master -> master
++
++F:\Fahad>
+\ No newline at end of file
+(END)^C
+F:\Fahad>git show head
++F:\Fahad>git push origin master
+commit 091692b40e967c517f6e2231b7e78d8aac73d046 (HEAD -> master, origin/master, latest)
+Author: Fahadayyoub <muhammadfahadayyoub@gmail.com>
+Date:   Sun Dec 24 15:28:59 2017 +0500
+
+    message
+
+diff --git a/Fahad.txt b/Fahad.txt
+index 1838dfc..0b0d090 100644
+--- a/Fahad.txt
++++ b/Fahad.txt
+@@ -1 +1,70 @@
+-Hello its me
+\ No newline at end of file
++Microsoft Windows [Version 10.0.14393]
++(c) 2016 Microsoft Corporation. All rights reserved.
++
++F:\Fahad>
++F:\Fahad>git init
++Initialized empty Git repository in F:/Fahad/.git/
++
++F:\Fahad>git remote add origin https://github.com/Fahadayyoub/C-comapany.git
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++
++*** Please tell me who you are.
++
+\ No newline at end of file
+(END)^C
+:
+
+:
+
 F:\Fahad>
+
+:
+
+(END)
+
+(END)
+
+F:\Fahad>
+
+(END)
+
+:mcnvj
+'mcnvj' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+commit 091692b40e967c517f6e2231b7e78d8aac73d046 (HEAD -> master, origin/master, latest)
+Author: Fahadayyoub <muhammadfahadayyoub@gmail.com>
+Date:   Sun Dec 24 15:28:59 2017 +0500
+
+    message
+
+diff --git a/Fahad.txt b/Fahad.txt
+index 1838dfc..0b0d090 100644
+--- a/Fahad.txt
++++ b/Fahad.txt
+@@ -1 +1,70 @@
+-Hello its me
+\ No newline at end of file
++Microsoft Windows [Version 10.0.14393]
++(c) 2016 Microsoft Corporation. All rights reserved.
++
++F:\Fahad>
++F:\Fahad>git init
++Initialized empty Git repository in F:/Fahad/.git/
++
++F:\Fahad>git remote add origin https://github.com/Fahadayyoub/C-comapany.git
++
++F:\Fahad>git add .
++
++F:\Fahad>git commit -m "message"
++
++*** Please tell me who you are.
++
++Run
+:it status
+'it' is not recognized as an internal or external command,
+operable program or batch file.
+
+:git status
+On branch master
+nothing to commit, working tree clean
+
+F:\Fahad>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Rough.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+:git add .
+
+:it status
+'it' is not recognized as an internal or external command,
+operable program or batch file.
+
+:git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Rough.txt
+
+
+:git reset --hard
+HEAD is now at 091692b message
+
+F:\Fahad>
+
+:
+
+:
+
+F:\Fahad>
+
+:
+
+:
+
+:
+
+:
